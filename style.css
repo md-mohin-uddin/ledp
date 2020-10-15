@@ -1,0 +1,336 @@
+body{
+	margin: 0;
+	font-family:bangla;
+}
+@font-face{
+	font-family:bangla;
+	src: url("SolaimanLipi_20-04-07.ttf");
+}
+
+.header-area{
+	height:600px;
+	width:100%;
+	background-color:#fff;
+}
+.header-top{
+	height:80px;
+	width:100%;
+	position:fixed;
+	background-color:#fff;
+}
+.container{
+	width:80%;
+	
+	margin:auto;
+}
+.header-top-left{
+	width:20%;
+	text-align:center;
+	float:left;
+	height:100%;
+	margin-top:11px;
+}
+.header-top-middle{
+	width:50%;
+	text-align:center;
+	float:left;
+	height: 100%;
+	margin-top: 30px;
+	font-family:bangla;
+}
+.header-top-right{
+	width:30%;
+	height:100px;
+	overflow:hidden;
+	text-align:right;
+	padding-top:30px;
+	font-family:bangla;
+}
+a {
+	text-decoration:none;
+}
+.header-top-middle a{
+	color:#000;
+	padding:10px 20px;
+	font-size: 18px;
+}
+.header-top-middle a:hover{
+	color:#2BAB79;
+}
+.header-top-right a{
+	background-color:#41A26F;
+	color:#fff;
+	margin-top: 20px;
+	border:1px solid #41A26F;
+    padding: 10px 10px;
+    border-radius: 46px;
+}
+}
+.header-bottom{
+
+	margin-top:80px;
+	padding-top:80px;
+}
+.header-bottom img{
+	width:100%;
+	height:520px;
+	
+	padding-top:80px;
+}
+.main-area {
+	height:1000px;
+	width:100%;
+	
+}
+.notice-area{
+	height:40%;
+	width:100%;
+	background-color:#FAFBFE;
+}
+.box1{
+	height:100%;
+	width:40%;
+	padding-top: 50px;
+	float:left;
+}
+.box2{
+	height:100%;
+	width:60%;
+	padding-top:122px;
+	overflow:hidden;
+}
+.box2 a{
+	color:#000;
+}
+.box2 a:hover{
+	color:#41A26F;
+}
+.course-area{
+	height:700px;
+	width:100%;
+	background-color:#fff;
+}
+.course-top{
+	height:300px;
+	width:100%;
+	margin:auto;
+	
+}
+.course-area h2{
+	font-size:28px;
+	color:#212529;
+	width:700;
+	text-align:center;
+	margin-top:50px;
+}
+.course-area p{
+	font-family:bangla;
+	color:#858d96;
+	font-size:18px;
+	line-height:24px;
+	width:400;
+	width:57%;
+	text-align:center;
+	margin:auto;
+	
+}
+.course-bottom{
+	height:300px;
+	width:100%;
+	margin:auto;
+}
+.graphic{
+	height:100%;
+	width:30%;
+	margin:auto;
+	float:left;
+	text-align:center;
+	border:1px solid #CACCD3;
+	
+	
+}
+.web{
+	height:100%;
+	width:30%;
+	margin:auto;
+	float:left;
+	text-align:center;
+	border:1px solid #CACCD3;
+}
+.digital{
+	height:100%;
+	width:30%;
+	margin:auto;
+	overflow:hidden;
+	text-align:center;
+	border:1px solid #CACCD3;
+	padding-right: 4px;
+}
+.course-bottom a{
+	padding:8px 15px;
+	color:#28A745;
+	font-size:14px;
+	background-color:#fff;
+	border:1px solid #28A745;
+	border-radius:5px;
+	text-align:center;
+	font-family:bangla;
+}
+.course-bottom a:hover{
+	background-color:#28A745;
+	color:#fff;
+}
+.graphic h2{
+	font-family:bangla;
+	color:#212529;
+	font-size:15px;
+	line-height:22px;
+	width:600;
+	text-align:center;
+	margin-top:0;
+}
+
+.web h2{
+	font-family:bangla;
+	color:#212529;
+	font-size:15px;
+	line-height:22px;
+	width:600;
+	text-align:center;
+	margin-top:0;
+}
+.digital h2{
+	font-family:bangla;
+	color:#212529;
+	font-size:15px;
+	line-height:22px;
+	width:600;
+	text-align:center;
+	margin-top:0;
+}
+.apply-form{
+	background-image:url("images/count-bg.png");
+	margin-top: 80px;
+	height:370px;
+}
+.apply-form h2{
+	color:#fff;
+	font-size:30px;
+	text-align:center;
+	padding-top: 82px;
+}
+.timing{
+	padding-left:33%;
+}
+.day{
+	height:100px;
+	width:106px;
+	border:1px solid #fff;
+	float:left;
+	border-radius:5px;
+
+}
+.hour{
+	height:100px;
+	width:106px;
+	border:1px solid #fff;
+	float:left;
+	border-radius:5px;
+	
+}
+.minute{
+	height:100px;
+	width:106px;
+	border:1px solid #fff;
+	float:left;
+	border-radius:5px;
+	
+}
+.second{
+	height:100px;
+	width:106px;
+	border:1px solid #fff;
+	overflow:hidden;
+	border-radius:5px;
+	
+}
+.apply-form p{
+	color:#fff;
+	font-size:48px;
+	margin-top:0;
+	
+}
+.apply-form span{
+	font-size:22px;
+	margin-top:0;
+	
+}
+.reg {
+	    margin: 4% 45%;
+}
+.reg a{
+	
+	background-color:#fff;
+	color:#000;
+	border:2px solid transparent;
+	border-radius:5px;
+	padding: 6px 15px;
+}
+.reg a:hover{
+	margin-top:-10px;
+}
+.course-extra{
+	width:80%;
+	margin:auto;
+	
+}
+.course-extra img{
+	height:105px;
+	width:105px;
+	margin:auto;
+	margin-top: 64px;
+}
+.review{
+	float:left;
+	height:300px;
+	width:31%;
+	padding:5px 10px;
+}
+.special{
+	float:left;
+	height:300px;
+	width:31%;padding:5px 10px;
+}
+.marketplace{
+	overflow:hidden;
+	height:300px;
+	width:31%;padding:5px 10px;
+}
+.course-extra h2{
+	text-align:center;
+	font-size:28px;
+	color:#212529;
+	margin-top: 64px;
+	
+}
+.course-extra p{
+	color:#858d96;
+	font-size:14px;
+	width:400;
+}
+.footer-area{
+	background-color:#000;
+	height:100px;
+	width:100%;
+	display:block;
+}
+.footer-left {
+	height:100%;
+	width:50%;
+	text-align:left;
+}
+.footer-right {
+	height:100%;
+	width:50%;
+	text-align:right;
+}
